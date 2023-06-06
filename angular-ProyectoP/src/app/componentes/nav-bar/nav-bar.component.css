@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+section{
+    color: white;
+}
+li>img{
+    width: 3rem;
+    height: 3rem;
+    border: 0px;
+    }
+    button>a{
+        color: white;
+        
+    }
+    a>h1{
+        font-family: Arial, Helvetica, Sans-serif;
+    }
+.list{
+    border: 1px;
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    text-align: left;
+}    

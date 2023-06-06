@@ -1,0 +1,13 @@
+ <!--Proyectos a futuro-->
+ <section id="proyectos">
+    <div class="titulo"> <h2>Proyectos a futuro</h2></div>
+    <div class="card3" *ngFor="let pro of proyect">
+      <div class="card border-light mb-2" style="width: 18rem;">
+        <img [src]="pro.imagen" class="card-img-top" alt="fulbo">
+        <div class="card-body">
+          <h5 class="card-title">{{pro.titulo}}</h5>
+          <p class="card-text">{{pro.texto}}</p>
+        </div>
+      </div>
+    </div>
+  </section>

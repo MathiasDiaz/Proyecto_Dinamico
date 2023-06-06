@@ -1,0 +1,11 @@
+
+        <!--Niveles de pareja-->
+        <section id="enojos">
+          <div class="titulo"><h2>Personalidad de pareja, de la novia</h2></div>
+          <div *ngFor="let persos of perso">
+           <h2>{{persos.nombre}}</h2>
+          <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" [ngClass]="persos.color" role="progressbar" aria-label="Animated striped example" [style.width.%]="persos.porcentaje" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">{{persos.porcentaje}}%</div>
+            </div>
+          </div>
+      </section>

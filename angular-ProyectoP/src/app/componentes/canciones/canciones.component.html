@@ -1,0 +1,14 @@
+  <!--Canciones dedicadas-->
+  <section id="canciones">
+    <div class="titulo"> <h2>Canciones dedicadas</h2></div>
+      <div class="card1" *ngFor="let canciones of cancion">
+      <div class="card border-light mb-3" style="width: 18rem;">
+          <img [src]=canciones.imagen class="card-img-top" alt="cancionImg">
+          <div class="card-body">
+            <h5 class="card-title"> {{canciones.titulo}} </h5>
+            <p class="card-text">{{canciones.texto}}</p>
+            <a [href]=canciones.link target="_blank" class="btn btn-primary">Escuchar ahora</a>
+          </div>
+          </div>
+        </div>
+  </section>

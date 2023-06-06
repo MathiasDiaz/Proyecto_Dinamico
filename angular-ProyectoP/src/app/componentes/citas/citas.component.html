@@ -1,0 +1,18 @@
+ <!--Citas-->
+ <section id="citas">
+    <div class="titulo"> <h2>Citas o salidas</h2></div>
+    <div class="card2" *ngFor="let citas of cita"> 
+       <div class="car2">    
+      <div class="card border-light  mb-3" style="width: 18rem;">
+          <img [src]="citas.imagen" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{citas.titulo}}</h5>
+            <p class="card-text">{{citas.texto}}</p>
+            <a href="https://www.google.com.ar/maps/place/26%C2%B048'03.7%22S+65%C2%B010'59.9%22W/@-26.8004297,-65.1831968,18.75z/data=!4m4!3m3!8m2!3d-26.801017!4d-65.183311?entry=ttu" target="_blank" class="btn btn-primary">Ir a la direccion</a>
+          </div>
+        </div>
+       </div>
+        <div class="car">h</div>
+        </div>
+
+  </section>

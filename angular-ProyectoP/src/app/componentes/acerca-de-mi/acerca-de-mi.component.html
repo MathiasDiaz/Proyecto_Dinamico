@@ -1,0 +1,13 @@
+<!--Acerca-->
+<section id="acerca">
+    <div *ngFor="let acercas of acerca">
+    <img [src]="acercas.imagen" class="FotosPareja" alt="fotoPareja" >
+        <ul><h6> <li>Nombre de la pareja: {{acercas.nombreNovio}} y {{acercas.nombreNovia}}</li>
+       <li>Fecha de inicio de la relacion: {{acercas.fecha}}</li>
+           <li>Edad del novio: {{acercas.edadNovio}}</li>
+               <li>Edad de la novia: {{acercas.edadNovia}}</li>
+           </h6>
+           </ul>
+        </div>
+       
+</section>

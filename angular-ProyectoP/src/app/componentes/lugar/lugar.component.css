@@ -1,0 +1,13 @@
+.titulo>h2{
+    text-align: center;
+    border: 2px solid white;
+    background-color: darkgray;
+}
+.conocer{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid white;
+}
+section{
+    color: white;
+}

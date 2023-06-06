@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+section{
+    color: white;
+}
+.FotosPareja{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 25rem;
+    border: 7px solid black;
+    display: flex;
+}
