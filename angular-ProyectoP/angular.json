@@ -24,7 +24,12 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "src/styles.css",
+              {
+                "glob": "_redirects",
+                "input": "src",
+                "output": "/"
+              }
            
             ],
             "scripts": [
